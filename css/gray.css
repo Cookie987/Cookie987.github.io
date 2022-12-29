@@ -1,0 +1,10 @@
+html {
+  /* filter: gray 灰度的滤镜 */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  /* Chrome 和 Safari 灰度的滤镜 */
+  -webkit-filter: grayscale(100%);
+}
+/* 滚动条颜色 */
+*::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+}
