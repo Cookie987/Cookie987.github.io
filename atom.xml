@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cookie987</title>
+  
+  
+  <link href="https://www.cookie987.tk/atom.xml" rel="self"/>
+  
+  <link href="https://www.cookie987.tk/"/>
+  <updated>2022-12-29T10:36:47.000Z</updated>
+  <id>https://www.cookie987.tk/</id>
+  
+  <author>
+    <name>Cookie987</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>友链规则</title>
+    <link href="https://www.cookie987.tk/posts/linkrule.html"/>
+    <id>https://www.cookie987.tk/posts/linkrule.html</id>
+    <published>2022-12-29T10:36:45.000Z</published>
+    <updated>2022-12-29T10:36:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h1><ol><li>不得违反中华人民共和国法律法规</li><li>非营销号、内容农场等，运行至少半年（0.2坤年）</li><li>没有无法接受的广告</li></ol><h1 id="暂停-x2F-申请"><a href="#暂停-x2F-申请" class="headerlink" title="暂停&#x2F;申请"></a>暂停&#x2F;申请</h1><p>暂停请在 <a href="https://cookie987.tk/links">友链</a> 评论区发送原因或给站长发邮箱 <a href="mailto:cookie987@cookie987.tk">cookie987@cookie987.tk</a></p><p>申请请到 <a href="https://cookie987.tk/links">友链</a> 页面或给站长发邮箱 <a href="mailto:cookie987@cookie987.tk">cookie987@cookie987.tk</a>，两者选其一，多次重复申请将被拉黑</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;规则&quot;&gt;&lt;a href=&quot;#规则&quot; class=&quot;headerlink&quot; title=&quot;规则&quot;&gt;&lt;/a&gt;规则&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;不得违反中华人民共和国法律法规&lt;/li&gt;
+&lt;li&gt;非营销号、内容农场等，运行至少半年（0.2坤年）&lt;/li&gt;
+&lt;li&gt;没有无法接</summary>
+      
+    
+    
+    
+    <category term="声明" scheme="https://www.cookie987.tk/categories/%E5%A3%B0%E6%98%8E/"/>
+    
+    
+    <category term="其他" scheme="https://www.cookie987.tk/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows Server 2022 (20348.169) 轻度优化版</title>
+    <link href="https://www.cookie987.tk/posts/winserver2022.html"/>
+    <id>https://www.cookie987.tk/posts/winserver2022.html</id>
+    <published>2022-07-12T19:12:00.000Z</published>
+    <updated>2022-12-30T02:17:44.184Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文章在哔哩哔哩同步发布 <a href="https://b23.tv/OQqfF9b">Windows Server 2022 (20348.169) 轻度优化版-哔哩哔哩专栏</a></p><p>本专栏应该是全网首发的 Windows Server 2022 修改版吧</p><p><strong>第一次封装系统, 如有不足, 请多包容</strong></p><p>本系统由基于 21H2 版本制作, 仅安装 7Zip-ZSTD, 纯净无广告.</p><p>Windows Server 系列是专为企业用户所打造的一款服务器操作系统, 系统移除了许多 Windows 组件, 运行流畅. 适合有一定基础的用户使用. 可正常使用 Windows Update.</p><p><strong>推荐安装无运行库版, 有运行库版安装较慢</strong></p><h2 id="优化列表"><a href="#优化列表" class="headerlink" title="优化列表"></a>优化列表</h2><h4 id="微调"><a href="#微调" class="headerlink" title="微调"></a>微调</h4><ul><li>登录时不自动启动服务器管理器</li><li>关闭 IE 增强安全配置</li><li>关闭结构化异常处理覆盖保护 (SEHOP)</li><li>无需按 Ctrl-Alt-Delete 即可登录</li><li>禁用密码必须符合复杂性要求</li><li>密码永不过期</li><li>仅为基本 Windows 程序和服务启用 DEP</li><li>关闭自动播放</li><li>默认用户为 Administrator, 第一次登录需更改密码</li><li>为前台程序分配较多的处理器资源</li><li>允许系统在未登录的情况下关闭</li><li>开启关机清除虚拟内存文件</li><li>开启常用系统服务</li><li>开启存储感知 (可定时释放空间)</li><li>启用远程桌面</li><li>打开文件扩展名</li><li>开启传递优化</li><li>打开开发人员模式</li><li>允许使用 PIN&#x2F;Windows Hello 登录 (请自行建立新账户, 内置管理员账户不可用)</li><li>设置微软拼音默认为英文模式</li><li>添加英语键盘</li><li>安装时自动 OEM 激活 (仅 ISO 方式安装, 且不稳定)</li></ul><h4 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h4><ul><li>安装 7zip-ZSTD 压缩软件</li></ul><h4 id="以下仅在带运行库版上预装"><a href="#以下仅在带运行库版上预装" class="headerlink" title="以下仅在带运行库版上预装"></a>以下仅在带运行库版上预装</h4><ul><li>安装 .NET 运行库<ul><li>.NET FrameWork 1.1 SP1</li><li>.NET FrameWork 3.5 (含 .NET2.0 和 .NET3.0)</li><li>.NET FrameWork 4.5</li><li>.NET FrameWork 4.6</li><li>.NET FrameWork 4.7</li><li>.NET FrameWork 4.8</li><li>.NET Core 3.1 Desktop Runtime</li><li>.NET 5.0 Desktop Runtime</li></ul></li><li>安装 Visual C++ 运行库<ul><li>Microsoft Visual Basic&#x2F;C++ Runtime (x86&#x2F;x64)</li><li>Microsoft C Runtime Library (2002: 7.0.9975.0)</li><li>Microsoft C Runtime Library (2003: 7.10.6119.0)</li><li>Microsoft Visual C++ Redistributables (x86&#x2F;x64)<ul><li>Microsoft Visual C++ 2005 Redistributable - 8.0.61187</li><li>Microsoft Visual C++ 2008 Redistributable - 9.0.30729</li><li>Microsoft Visual C++ 2010 Redistributable - 10.0.40219</li><li>Microsoft Visual C++ 2012 Redistributable - 11.0.61135</li><li>Microsoft Visual C++ 2013 Redistributable - 12.0.40664</li><li>Microsoft Visual C++ 2015 Redistributable - 14.10.25008</li><li>Microsoft Visual C++ 2005-2022 Redistributable - 14.32.31302</li></ul></li><li>Microsoft Visual Studio 2010 Tools for Office Runtime (x86&#x2F;x64)</li></ul></li></ul><h2 id="系统截图"><a href="#系统截图" class="headerlink" title="系统截图"></a>系统截图</h2><p><img src="https://cdn.jsdelivr.net/gh/Cookie987/Cookie987.github.io.images@main/1657923955000.png" alt="桌面"><br><img src="https://cdn.jsdelivr.net/gh/Cookie987/Cookie987.github.io.images@main/1657924026000.png" alt="软件(无运行库版)"></p><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><p>2022.7.13 22w01a</p><p>第一次封装</p><h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p><strong>请仔细校验文件 SHA-1 值</strong></p><p>64NoRuntime_WindowsServer2022.iso 61D373E9E7E211EE4345FE91F8A8EF69B33D6EC9</p><p>64NoRuntime_WindowsServer2022.wim 75DBE185CFE7F8CFDAF866A50DEBC68E14553CE3</p><p>64WithRuntime_WindowsServer2022.iso 0B8894922F01183D26A770CD66F1F1DCB1648B51</p><p>64WithRuntime_WindowsServer2022.iso 78C87578F110F61B19E270743861973B7EEE047E</p><p>Cookie987’s Drive: <a href="https://drive.cookie987.tk/public/WindowsServer2022/Latest/64NoRuntime_WindowsServer2022.wim">不带运行库 WIM</a> | <a href="https://drive.cookie987.tk/public/WindowsServer2022/Latest/64NoRuntime_WindowsServer2022.iso">不带运行库 ISO</a> | <a href="https://drive.cookie987.tk/public/WindowsServer2022/Latest/64WithRuntime_WindowsServer2022.wim">带运行库 WIM</a> | <a href="https://drive.cookie987.tk/public/WindowsServer2022/Latest/64WithRuntime_WindowsServer2022.iso">带运行库 ISO</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文章在哔哩哔哩同步发布 &lt;a href=&quot;https://b23.tv/OQqfF9b&quot;&gt;Windows Server 2022 (20348.169) 轻度优化版-哔哩哔哩专栏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本专栏应该是全网首发的 Windows Server 2022 修改版</summary>
+      
+    
+    
+    
+    
+    <category term="系统封装" scheme="https://www.cookie987.tk/tags/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85/"/>
+    
+    <category term="Windows" scheme="https://www.cookie987.tk/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows11 安装指南</title>
+    <link href="https://www.cookie987.tk/posts/how-to-install-win11.html"/>
+    <id>https://www.cookie987.tk/posts/how-to-install-win11.html</id>
+    <published>2022-01-17T08:46:46.000Z</published>
+    <updated>2022-12-30T02:17:44.184Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文主要总结安装 Windows11 的几种方法</p><h2 id="支持的新电脑"><a href="#支持的新电脑" class="headerlink" title="支持的新电脑"></a>支持的新电脑</h2><p>去 <a href="https://next.itellyou.cn/">MSDN</a> 下载镜像挂载安装即可。</p><h2 id="不支持的老电脑"><a href="#不支持的老电脑" class="headerlink" title="不支持的老电脑"></a>不支持的老电脑</h2><p>推荐方法2</p><h3 id="方法1"><a href="#方法1" class="headerlink" title="方法1"></a>方法1</h3><h4 id="添加注册表键"><a href="#添加注册表键" class="headerlink" title="添加注册表键"></a>添加注册表键</h4><p>注册表键：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup</span><br></pre></td></tr></table></figure><p>名称：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AllowUpgradesWithUnsupportedTPMOrCPU</span><br></pre></td></tr></table></figure><p>类型：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">REG_DWORD</span><br></pre></td></tr></table></figure><p>值：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure><p>注意：如果你通过使用注册表编辑器或使用其他方法错误地修改注册表，可能会发生严重的问题，这些问题可能需要重新安装操作系统。</p><p>随后启动安装程序即可（如果不成功，尝试第二种）</p><h3 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h3><p>—-未完成—-</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文主要总结安装 Windows11 的几种方法&lt;/p&gt;
+&lt;h2 id=&quot;支持的新电脑&quot;&gt;&lt;a href=&quot;#支持的新电脑&quot; class=&quot;headerlink&quot; title=&quot;支持的新电脑&quot;&gt;&lt;/a&gt;支持的新电脑&lt;/h2&gt;&lt;p&gt;去 &lt;a href=&quot;https://nex</summary>
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://www.cookie987.tk/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Windows11" scheme="https://www.cookie987.tk/tags/Windows11/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试Waline评论-TestWaline</title>
+    <link href="https://www.cookie987.tk/posts/test-waline.html"/>
+    <id>https://www.cookie987.tk/posts/test-waline.html</id>
+    <published>2022-01-01T19:14:54.000Z</published>
+    <updated>2022-12-30T02:17:44.184Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;测试&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="https://www.cookie987.tk/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World（测试）</title>
+    <link href="https://www.cookie987.tk/posts/hello-world.html"/>
+    <id>https://www.cookie987.tk/posts/hello-world.html</id>
+    <published>2022-01-01T00:00:00.000Z</published>
+    <updated>2022-12-30T02:17:44.184Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到 <a href="https://hexo.io/">Hexo</a>! 这是你最开始的文章！ 点击 <a href="https://hexo.io/docs/">documentation</a> 查看更多信息。 如果你在使用它时遇见了任何问，你可以在 <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> 找到回答或者在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a> 问我。</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一篇新文章"><a href="#创建一篇新文章" class="headerlink" title="创建一篇新文章"></a>创建一篇新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="配置到远程服务器"><a href="#配置到远程服务器" class="headerlink" title="配置到远程服务器"></a>配置到远程服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! 这是你最开始的文章！ 点击 &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; 查看更多信息。 如果你在使用它时遇见了任何问，你可以在 &lt;a </summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="https://www.cookie987.tk/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
