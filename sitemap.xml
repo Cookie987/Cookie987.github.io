@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://cookie987.top/links/index.html</loc>
-    
-    <lastmod>2024-01-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cookie987.top/posts/hexo-butterfly-blog.html</loc>
     
     <lastmod>2023-02-12</lastmod>
@@ -101,6 +92,15 @@
   </url>
   
   <url>
+    <loc>https://cookie987.top/links/index.html</loc>
+    
+    <lastmod>2022-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/talks/index.html</loc>
     
     <lastmod>2022-12-28</lastmod>
@@ -146,18 +146,9 @@
   </url>
   
   <url>
-    <loc>https://cookie987.top/bb/index.html</loc>
-    
-    <lastmod>2022-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cookie987.top/categories/index.html</loc>
     
-    <lastmod>2022-05-21</lastmod>
+    <lastmod>2021-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,7 +157,7 @@
   <url>
     <loc>https://cookie987.top/tags/index.html</loc>
     
-    <lastmod>2022-05-21</lastmod>
+    <lastmod>2021-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -180,6 +171,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://cookie987.top/tags/Hexo/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/tags/Butterfly/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://cookie987.top/tags/%E6%8A%80%E6%9C%AF/</loc>
@@ -246,20 +251,6 @@
   
   <url>
     <loc>https://cookie987.top/tags/%E7%BD%91%E8%AF%BE/</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Hexo/</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Butterfly/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
