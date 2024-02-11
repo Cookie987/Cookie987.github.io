@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cookie987.top/manifest.json</loc>
-    
-    <lastmod>2024-02-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cookie987.top/newyear/index.html</loc>
     
     <lastmod>2024-02-11</lastmod>
@@ -38,34 +29,16 @@
   </url>
   
   <url>
+    <loc>https://cookie987.top/manifest.json</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/img/siteicon/README.html</loc>
-    
-    <lastmod>2024-02-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/posts/hello-world.html</loc>
-    
-    <lastmod>2024-02-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/bb/index.html</loc>
-    
-    <lastmod>2024-02-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/categories/index.html</loc>
     
     <lastmod>2024-02-11</lastmod>
     
@@ -110,7 +83,34 @@
   </url>
   
   <url>
+    <loc>https://cookie987.top/posts/hello-world.html</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/404.html</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/bb/index.html</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/categories/index.html</loc>
     
     <lastmod>2024-02-11</lastmod>
     
