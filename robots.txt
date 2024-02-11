@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Allow: /talks/
+Allow: /links/
+
+Sitemap: https://cookie987.tk/sitemap.xml
