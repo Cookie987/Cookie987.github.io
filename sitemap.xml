@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cookie987.top/essay/index.html</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/essay.html</loc>
     
     <lastmod>2024-02-11</lastmod>
@@ -182,6 +191,20 @@
 
   
   <url>
+    <loc>https://cookie987.top/tags/Hexo/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/tags/Butterfly/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -246,20 +269,6 @@
   
   <url>
     <loc>https://cookie987.top/tags/%E7%BD%91%E8%AF%BE/</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Hexo/</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Butterfly/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
