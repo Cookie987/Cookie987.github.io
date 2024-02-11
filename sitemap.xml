@@ -4,7 +4,7 @@
   <url>
     <loc>https://cookie987.top/manifest.json</loc>
     
-    <lastmod>2024-02-11</lastmod>
+    <lastmod>2024-01-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +13,7 @@
   <url>
     <loc>https://cookie987.top/newyear/index.html</loc>
     
-    <lastmod>2024-02-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/404.html</loc>
-    
-    <lastmod>2024-02-11</lastmod>
+    <lastmod>2024-01-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -75,6 +66,15 @@
   
   <url>
     <loc>https://cookie987.top/about/index.html</loc>
+    
+    <lastmod>2022-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/404.html</loc>
     
     <lastmod>2022-12-29</lastmod>
     
