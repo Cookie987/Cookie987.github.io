@@ -6,7 +6,7 @@
   <link href="https://cookie987.top/atom.xml" rel="self"/>
   
   <link href="https://cookie987.top/"/>
-  <updated>2023-02-12T04:41:47.000Z</updated>
+  <updated>2024-02-12T12:32:22.000Z</updated>
   <id>https://cookie987.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次更换主题</title>
+    <link href="https://cookie987.top/posts/2594b0ef.html"/>
+    <id>https://cookie987.top/posts/2594b0ef.html</id>
+    <published>2024-02-12T18:47:18.000Z</published>
+    <updated>2024-02-12T12:32:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>一直觉得 Butterfly 主题已经<s>被我整成史山了</s>，访问起来又慢又卡，遂于前几天开始更换主题计划，正好也换域名了，改改风格。</p></div><div class="note info flat"><p>博客已经恢复更新，大概每1-2周一篇，假期速度会提高。</p></div><h2 id="技术性移除">技术性移除</h2><p>首先就是取消 PWA，PWA对我网站速度提升不能说是一点效果没有，也只能说是毫无帮助，不仅如此 ，还经常出现奇奇怪怪的BUG，比如资源加载不及时，子域名受干扰等等，总之就是时候取消了。</p><p>取消还要安装新npm包，这是因为 PWA 只有自己才能取消自己，除非更换域名或手动清除缓存，正好换域名，直接取消 PWA 设置即可。</p><p>卸载 PWA 的npm包后，整个网站的依赖问题直接解决大半。</p><p>再就是取消gulp压缩，剩下的依赖问题几乎都是从这里面来的，每次上传的时候都显示已被弃用等等。</p><p>取消之后，开始更换主题。</p><h2 id="推送方式">推送方式</h2><p>以前一直是利用github的私有储存库储存博客源文件，然后通过actions生成html推送到公共仓库<a href="https://github.com/Cookie987/Cookie987.github.io">Cookie987/Cookie987.github.io</a></p><p>推送的时候一直是用hexo自带的push，但是它一直是强制push的，也就是说之前的commit都会消失，就没法很方便的查看更新日志。</p><p>以下是改进后的方法：</p><ol><li class="lvl-3"><p>新建文件夹 develop</p></li><li class="lvl-3"><p>进入develop，初始化git，添加远程存储库</p></li><li class="lvl-3"><p>拉取</p></li><li class="lvl-3"><p>删除目录中除.git外的所有文件</p></li><li class="lvl-3"><p>复制public文件夹内容至本文件夹</p></li><li class="lvl-3"><p>通过变量获取私有库commit内容，并同步commit到公有库</p></li><li class="lvl-3"><p>push</p></li></ol><h2 id="风格更改">风格更改</h2><p>更换和安装基本类似，去<code>theme</code>文件夹里一克隆就行，然后就是漫长的改配置。</p><p>改到关于页面的时候发现有很多设置不能取消，就开始传统艺能————魔改主题。</p><p>直接把一部分内容注释掉，这样就可以空着不填配置了。</p><p>友链页面还是老传统 Qexo，不采用安知鱼的方案~~，主要是有点麻烦~~。</p><p>页脚以前一直用的是<a href="https://akilar.top/posts/e87ad7f8/">店长</a>的方案，换为安知鱼自带的。</p><h2 id="访问速度">访问速度</h2><h3 id="网站速度">网站速度</h3><p>因为网站托管在境外的 Vercel 上，于是采用<a href="https://dusays.com/669/">杜老师的加速方案</a>，解析后速度果然快了不少。</p><h3 id="CDN">CDN</h3><p>把更多的静态资源托管到 CDN 上了。</p><p>这里我用的方案是很多人都用的 GitHub + npm 发包方案，只要找个 unpkg 镜像站就行。</p><p>然后就突然发现饿了么CDN用不了了，只有旧版本的才能用，想访问新版本直接提示<code>The specified key does not exist.</code>，估计是羊毛被薅秃了，不同步小项目了。</p><p>更换为 <a href="https://jsd.cdn.zzko.cn/">jsDelivr镜像站</a>。</p><h2 id="The-end">The end</h2><p>最后发现，自己做成一件事还挺有成就感的，好久没有专注地做一件事了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;一直觉得 Butterfly 主题已经&lt;s&gt;被我整成史山了&lt;/s&gt;，访问起来又慢又卡，遂于前几天开始更换主题计划，正好也换域名了，改改风格。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note info flat&quot;</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="https://cookie987.top/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="技术" scheme="https://cookie987.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="日常" scheme="https://cookie987.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="网站" scheme="https://cookie987.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="更新日志" scheme="https://cookie987.top/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>从0开始搭建你的个人博客（Hexo+Butterfly）</title>
