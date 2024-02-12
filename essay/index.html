@@ -213,7 +213,7 @@ if (true) {
     .then(data => {
       if (true) {
         const from = '出自 ' + data.from
-        const sub = ["world.execute(me); world.search(you);","Linux!"]
+        const sub = ["world.execute(me); world.search(you);"]
         sub.unshift(data.hitokoto, from)
         window.typed = new Typed('#footer-type-tips', {
           strings: sub,
