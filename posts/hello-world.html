@@ -442,7 +442,7 @@ queueMicrotask(() => {
   const initWaline = () => {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'comment.cookie987.top',
+      serverURL: 'https://comment.cookie987.top',
       pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
@@ -509,7 +509,7 @@ queueMicrotask(() => {
 
   const getComment = async () => {
     try {
-      const res = await fetch('comment.cookie987.top/api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('https://comment.cookie987.top/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {

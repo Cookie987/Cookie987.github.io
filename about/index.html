@@ -602,7 +602,7 @@ queueMicrotask(() => {
 
   const getComment = async () => {
     try {
-      const res = await fetch('comment.cookie987.top/api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('https://comment.cookie987.top/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {
