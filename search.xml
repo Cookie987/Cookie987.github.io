@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>公告</title>
+      <link href="/posts/notice.html"/>
+      <url>/posts/notice.html</url>
+      
+        <content type="html"><![CDATA[<p>本站全站域名已迁移至 <a href="https://cookie987.top">https://cookie987.top</a></p><p>旧域名 <a href="http://cookie987.tk">cookie987.tk</a> <strong>已停止维护</strong>，</p><p>请及时迁移至新域名。</p><p>2024.02.13</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记一次更换主题</title>
       <link href="/posts/2594b0ef.html"/>
       <url>/posts/2594b0ef.html</url>
