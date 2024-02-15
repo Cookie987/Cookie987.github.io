@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cookie987.top/404.html</loc>
+    
+    <lastmod>2024-02-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/posts/notice.html</loc>
     
     <lastmod>2024-02-13</lastmod>
@@ -128,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://cookie987.top/404.html</loc>
-    
-    <lastmod>2022-12-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cookie987.top/links/index.html</loc>
     
     <lastmod>2022-12-28</lastmod>
@@ -209,6 +209,20 @@
 
   
   <url>
+    <loc>https://cookie987.top/tags/Hexo/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cookie987.top/tags/Butterfly/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://cookie987.top/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -238,20 +252,6 @@
   
   <url>
     <loc>https://cookie987.top/tags/Windows/</loc>
-    <lastmod>2024-02-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Hexo/</loc>
-    <lastmod>2024-02-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cookie987.top/tags/Butterfly/</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
