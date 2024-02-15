@@ -7,4 +7,4 @@ Allow: /about/
 Allow: /talks/
 Allow: /links/
 
-Sitemap: https://cookie987.tk/sitemap.xml
+Sitemap: https://cookie987.top/sitemap.xml
