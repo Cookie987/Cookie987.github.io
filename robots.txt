@@ -6,5 +6,7 @@ Allow: /tags/
 Allow: /about/
 Allow: /talks/
 Allow: /links/
+Allow: /essay/
+Allow: /posts/
 
 Sitemap: https://cookie987.top/sitemap.xml
