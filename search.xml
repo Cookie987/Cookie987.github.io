@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>关于CloudFlare重定向的相关经历</title>
+      <link href="/posts/cloudflare-redirect.html"/>
+      <url>/posts/cloudflare-redirect.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 网站 </tag>
+            
+            <tag> Cloudflare </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>公告</title>
       <link href="/posts/notice.html"/>
       <url>/posts/notice.html</url>
@@ -47,9 +70,9 @@
             
             <tag> 技术 </tag>
             
-            <tag> 日常 </tag>
-            
             <tag> 网站 </tag>
+            
+            <tag> 日常 </tag>
             
             <tag> 更新日志 </tag>
             
