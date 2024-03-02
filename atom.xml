@@ -6,7 +6,7 @@
   <link href="https://cookie987.top/atom.xml" rel="self"/>
   
   <link href="https://cookie987.top/"/>
-  <updated>2024-02-28T13:02:37.000Z</updated>
+  <updated>2024-03-02T02:31:31.000Z</updated>
   <id>https://cookie987.top/</id>
   
   <author>
@@ -21,8 +21,16 @@
     <link href="https://cookie987.top/posts/cloudflare-redirect.html"/>
     <id>https://cookie987.top/posts/cloudflare-redirect.html</id>
     <published>2024-02-17T20:29:54.000Z</published>
-    <updated>2024-02-28T13:02:37.000Z</updated>
+    <updated>2024-03-02T02:31:31.000Z</updated>
     
+    <content type="html"><![CDATA[<p>以前一直用着是CF官方的重定向列表，但是太少了，上网搜索，遂找到Workers方案：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">addEventListener</span>(<span class="string">&quot;fetch&quot;</span>, <span class="function"><span class="params">event</span> =&gt;</span> &#123;</span><br><span class="line">    event.<span class="title function_">respondWith</span>(<span class="title function_">handleRequest</span>(event.<span class="property">request</span>))</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">handleRequest</span>(<span class="params">request</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> arr = [</span><br><span class="line">        <span class="string">&quot;[重定向前链接] [重定向后链接]&quot;</span>,</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> old_url, new_url</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> u2 <span class="keyword">of</span> arr) &#123;</span><br><span class="line">        [old_url, new_url] = u2.<span class="title function_">split</span>(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="keyword">if</span> (request.<span class="property">url</span> === old_url) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="title class_">Response</span>.<span class="title function_">redirect</span>(new_url, <span class="number">301</span>)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> base = <span class="string">&quot;404时跳转的 URL&quot;</span></span><br><span class="line">    <span class="keyword">const</span> url = <span class="keyword">new</span> <span class="title function_">URL</span>(request.<span class="property">url</span>)</span><br><span class="line">    <span class="keyword">const</span> &#123; pathname, search &#125; = url</span><br><span class="line">    <span class="keyword">const</span> destinationURL = base + pathname + search</span><br><span class="line">    <span class="keyword">return</span> <span class="title class_">Response</span>.<span class="title function_">redirect</span>(destinationURL, <span class="number">301</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>把代码粘贴进 Worker 然后绑定一个域名即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;以前一直用着是CF官方的重定向列表，但是太少了，上网搜索，遂找到Workers方案：&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;</summary>
+      
     
     
     
