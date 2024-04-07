@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>推荐一款对象存储云—缤纷云</title>
+      <link href="/posts/bitiful.html"/>
+      <url>/posts/bitiful.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前情提要">前情提要</h2><p>之前网站的静态资源加载方案一直是GitHub仓库+UnPKG镜像，但是这样图片多了容易导致Github被封号（人本来就不是用来做图床的），而且也有占用NPM资源之嫌。</p><p>除此之外，这样的方案在大陆地区即使用上镜像，访问也不算快。（而且饿了么cdn停止更新了已经）</p><p>恰好注意到杜老师的一篇文章：<a href="https://dusays.com/691/">说说广场资源转存至缤纷云</a>，遂尝试。</p><h2 id="初体验">初体验</h2><p>界面一上来给人十分简洁的感觉</p><p><img src="https://987assests.s3.bitiful.net/img/Qexo/2024/4/a72d016c901c6f9287b122534c8791e3.png?fmt=webp" alt="欢迎界面"></p><p>总是感觉这个样子好像在哪里看到过（逃</p><p>注册账号后，完成实名认证，即可享受30G的免费空间</p><p><img src="https://987assests.s3.bitiful.net/img/Qexo/2024/4/b1108b8639bbe1930bedad6c358d0855.png?fmt=webp" alt="仪表盘"></p><p><s>对于我这种人来说，免费是最重要的</s></p><h2 id="图片管理">图片管理</h2><p>先进入bucket页面新建储存桶，名称要求<strong>全局</strong>唯一，创建时注意选择匿名读取（毕竟我们的目的是做图床和静态资源存储）。</p><p><img src="https://987assests.s3.bitiful.net/img/Qexo/2024/4/f6f963b6a98e15685bf59fd261afc45d.png?fmt=webp" alt="储存桶"></p><p>随后即可使用手动上传，也可使用S3协议搭配Qexo进行上传。</p><p>在权限管理中新建Qexo用户，并给予权限，然后使用Qexo的S3协议即可。</p><p><img src="https://987assests.s3.bitiful.net/img/Qexo/2024/4/fa478929592dbe325420f86f4c2dfcf9.png?fmt=webp" alt="Qexo"></p><p>注：在url链接后加<code>?fmt=webp</code>可实现自动转化为webp格式以节省流量。</p><h2 id="总结">总结</h2><p>第一体验给人感觉还不错，计划迁移一下本站图床（本地测试已通过）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 网站 </tag>
+            
+            <tag> CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于CloudFlare重定向的相关经历</title>
       <link href="/posts/cloudflare-redirect.html"/>
       <url>/posts/cloudflare-redirect.html</url>
